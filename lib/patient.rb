@@ -8,6 +8,5 @@ class Patient
 
   def add_appointment(appointment)
     @appointments.push(appointment)
-    appointment.patient << self
   end
 end
